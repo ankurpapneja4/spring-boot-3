@@ -1,0 +1,9 @@
+version: '3'
+services:
+  springboot3-demoapp:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: springboot3-demoapp
+    ports:
+      - "8080:8080"
