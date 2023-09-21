@@ -1,0 +1,16 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+  info:
+    env:
+      enabled: true
+
+info:
+  app:
+    name: "SpringBoot3-Demo"
+    version: "1.0.0"
+  developers:
+    - "Max"
+    - "Rose"
