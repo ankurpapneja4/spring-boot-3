@@ -2,7 +2,8 @@ management:
   endpoints:
     web:
       exposure:
-        include: health,info,mappings,threaddump
+        include: '*'
+        exclude: 'beans'
   info:
     env:
       enabled: true
