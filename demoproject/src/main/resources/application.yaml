@@ -1,3 +1,4 @@
+# Actuator - Management
 management:
   endpoints:
     web:
@@ -8,6 +9,7 @@ management:
     env:
       enabled: true
 
+# Info - Actuator Content
 info:
   app:
     name: "SpringBoot3-Demo"
@@ -15,3 +17,10 @@ info:
   developers:
     - "Max"
     - "Rose"
+
+# Spring Security - Configuration
+spring:
+  security:
+    user:
+      name: 'admin'
+      password: 'secret'
