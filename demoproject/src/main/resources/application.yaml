@@ -24,3 +24,11 @@ spring:
     user:
       name: 'admin'
       password: 'secret'
+
+# SLF4J - Configuration
+logging:
+  level:
+    org:
+      springframework: 'ERROR'
+      springstudent:
+        demoproject: 'TRACE'
